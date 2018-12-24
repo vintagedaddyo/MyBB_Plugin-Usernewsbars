@@ -285,7 +285,7 @@ function usernewsbars_activate()
     
     // activate on global
     
-    find_replace_templatesets("header_welcomeblock_member", "#" . preg_quote("<br class=\"clear\" />") . "#i", "<br class=\"clear\" />\r\n</div><div class=\"wrapper\">
+    find_replace_templatesets("header_welcomeblock_member", "#" . preg_quote("<br class=\"clear\" />") . "#i", "<br class=\"clear\" />\r\n</div><div class=\"wrapper\" style=\"width:84%;\">
         {\$usernewsbars_1}
         {\$usernewsbars_2}
         {\$usernewsbars_3}");
@@ -321,7 +321,7 @@ function usernewsbars_deactivate()
     
     // deactivate on global
     
-    find_replace_templatesets("header_welcomeblock_member", "#" . preg_quote("\r\n</div><div class=\"wrapper\">
+    find_replace_templatesets("header_welcomeblock_member", "#" . preg_quote("\r\n</div><div class=\"wrapper\" style=\"width:84%;\">
         {\$usernewsbars_1}
         {\$usernewsbars_2}
         {\$usernewsbars_3}") . "#i", "", 0);

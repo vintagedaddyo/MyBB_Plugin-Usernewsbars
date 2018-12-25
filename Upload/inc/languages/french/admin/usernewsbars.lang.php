@@ -11,14 +11,15 @@
  * Plugin Version: 1.0
  * 
  */
+
 // plugin_info
 
 $l['usernewsbars_name'] = 'Barres de nouvelles utilisateur';
-$l['usernewsbars_desc'] = 'Ajoute des barres de news utilisateur a l index et a la page de portail de votre forum.';
+$l['usernewsbars_desc'] = 'Ajoute des barres de news utilisateur au modele header_welcomeblock_member de votre forum pour une meilleure visibilite';
 $l['usernewsbars_web'] = 'http://community.mybb.com/user-6029.html';
 $l['usernewsbars_auth'] = 'Vintagedaddyo';
 $l['usernewsbars_authsite'] = 'http://community.mybb.com/user-6029.html';
-$l['usernewsbars_ver'] = '1.2';
+$l['usernewsbars_ver'] = '1.0';
 $l['usernewsbars_compat'] = '18*';
 
 // Groupe de reglage

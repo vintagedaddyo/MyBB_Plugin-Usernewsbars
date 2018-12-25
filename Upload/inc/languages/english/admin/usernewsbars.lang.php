@@ -11,14 +11,15 @@
  * Plugin Version: 1.0
  * 
  */
+
 // plugin_info
 
 $l['usernewsbars_name'] = 'User Newsbars';
-$l['usernewsbars_desc'] = 'Adds user newsbars to the index and portal page of your forum.';
+$l['usernewsbars_desc'] = 'Adds user newsbars to header_welcomeblock_member template of your forum for users visibility.';
 $l['usernewsbars_web'] = 'http://community.mybb.com/user-6029.html';
 $l['usernewsbars_auth'] = 'Vintagedaddyo';
 $l['usernewsbars_authsite'] = 'http://community.mybb.com/user-6029.html';
-$l['usernewsbars_ver'] = '1.2';
+$l['usernewsbars_ver'] = '1.0';
 $l['usernewsbars_compat'] = '18*';
 
 // Setting Group
